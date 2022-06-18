@@ -1,0 +1,38 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-image: linear-gradient(to right, #212529b8, #28a74591),url('../../assets/tree.jpg');
+    background-position:center;
+    background-size:cover;
+    object-fit:cover;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered img {
+    width: 120px;
+  }
+  i{
+    width: 18px;
+  }
+  .btn{
+    background: #28a74591;
+  }
